@@ -1,0 +1,41 @@
+{
+  "name": "image-video-solversummarizer-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.12",
+    "@react-three/drei": "^9.57.0",
+    "@react-three/fiber": "^8.11.9",
+    "framer-motion": "^10.2.4",
+    "maath": "^0.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-particles": "^2.9.3",
+    "react-router-dom": "^6.8.2",
+    "react-tilt": "^0.1.4",
+    "react-tsparticles": "^2.9.3",
+    "react-vertical-timeline-component": "^3.6.0",
+    "tesseract.js": "^2.1.1",
+    "three": "^0.150.1",
+    "tsparticles": "^2.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "react-error-overlay": "^6.0.9",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.0"
+  }
+}

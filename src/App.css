@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+.btn {
+  
+  display: inline-block;
+  padding: 1em;margin: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  color: gray;
+ 
+  background-image: linear-gradient(white,white), linear-gradient(black,black);
+  background-size: 0 100%, auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all .2s ease-out;
+  
+}
+
+.btn:hover {
+  color: gray;
+  background-size: 100% 100%, auto;
+}
+.body{
+  background-image: url("src/assets/herobg.jpg");
+ 
+}
+*{
+  font-family: 'Archivo Black', sans-serif ;
+}
+.cursor{
+  color: aqua;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: calc(15px / 2);
+  
+}
+
+
+.cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  transform: translate(-50%, -50%); 
+  transition: 200ms ease-out;
+  border :2px solid gray;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index: 1000;
+  pointer-events: none;
+}
+.point{
+    mix-blend-mode: difference;
+  position: absolute;
+  width:5px;
+  height:5px;
+  border-radius: 50%;
+  
+  transition: 200ms ease-out;
+  color:aqua;
+  background:aqua;
+
+}
